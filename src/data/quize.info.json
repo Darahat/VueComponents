@@ -1,0 +1,26 @@
+{
+    "name":"Sports",
+    "totalPlays":43,
+    "averageScore":1000,
+    "players":[
+        {   "p_id":123,
+            "p_name":"Soumma",
+            "p_email":"provash@gmail.com",
+            "p_phone":"01988198",
+            "p_score":"232"
+        },
+        {
+            "p_id":21,
+            "p_name":"Rakib",
+            "p_email":"Rakib@gmail.com",
+            "p_phone":"01988198",
+            "p_score":"342"
+        },{
+            "p_id":21,
+            "p_name":"Rahat",
+            "p_email":"Rahat@gmail.com",
+            "p_phone":"01988198",
+            "p_score":"234"
+        }
+    ]
+}

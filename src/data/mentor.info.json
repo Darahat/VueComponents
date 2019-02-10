@@ -1,0 +1,12 @@
+[{
+    "id": 1,
+    "avatar": "https://cdn.vuetifyjs.com/images/lists/1.jpg",
+    "name": "Raqibul Haque",
+    "designation": "Team Leader of Teach Team",
+    "companyName": "Funush Private Limited",
+    "sessions": 36,
+    "rating": 4.4,
+    "expertize": [
+        "NodeJs", "MongoDB", "Vue.js", "Vuex", "Vuetify"
+    ]
+} ]

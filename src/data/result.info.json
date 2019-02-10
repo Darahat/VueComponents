@@ -1,0 +1,33 @@
+  {
+        "player_id": 1,
+        "player_name" : "Rahat",
+        "results":[
+            {
+              "quize_id": 1 ,
+              "date_taken" : "1-2-3",
+              "highest_score":193845,
+              "total_score":2333,
+              "title": "Ninja warrior",
+              "time_taken":"3:40m"
+
+            },
+            {
+                "quize_id": 2 ,
+                "date_taken" : "1-2-3",
+                "highest_score": 33434,
+                "total_score":89,
+                "title": "Cricket",
+                "time_taken":"3:40m"
+  
+              },
+              {
+                "quize_id": 3 ,
+                "date_taken" : "1-2-3",
+                "highest_score": 563445,
+                "total_score":223,
+                "title": "Football",
+                "time_taken":"3:40m"
+  
+              }
+        ]
+    }
