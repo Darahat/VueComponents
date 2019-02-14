@@ -4,23 +4,58 @@ import Home from './views/mentor.list.container.vue'
 import Authentication from './views/auth.container.vue'
 import Login from '@/components/local/auth.container/login'
 import Register from '@/components/local/auth.container/register'
+import ResultDetails from '@/components/global/isolate.result.data'
 import TokenService from '@/services/token.service'
 Vue.use(Router)
-
-function loadView(view) {
-  return () => import( /* webpackChunkName: "view-[request]" */ `@/views/${view}.vue`)
-}
+ 
 
 const router = new Router({
-  routes: [{
+  routes: [
+    
+    {
     // root routes
       path: '/',
       name: 'home',
       component: Home,
       meta: {
         requiresAuth: true, // Allow access to if logged in
-
-      }
+      metaTags:[
+        {
+          name:'description',
+          content:'See your created quizes information whom are played '
+        },
+        {
+          name:'keywords',
+          content:'career,careerki,quize,quizard,play,make,'
+        },
+        {
+          property:'og:description',
+          content:'See your created quizes information whom are played '
+        },
+        {
+          property:'og:title',
+          content:'',
+        },
+        {
+          property:'og:site_name',
+          content:'www.careerKi.com',
+        },
+        {
+          property:'og:image',
+          content:'/home/darahat/Desktop/JOB/Project/chatcat/src/assets/logo.png',
+        },
+        {
+        property:'og:url',
+        content:'https://www.careerki.com/'
+        }
+      ]
+    },
+    },
+    // result details
+    {
+      path: '/ResultDetails/title=:title/playerId/:quize_id',
+      name: 'resultDetails',
+      component: ResultDetails,
     },
     // auth routes
     {

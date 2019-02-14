@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <h1>See mentors</h1>
+    <!-- <h1>See mentors</h1> -->
       <v-container>
          <mentor-list></mentor-list>
       </v-container>

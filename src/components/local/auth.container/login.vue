@@ -69,7 +69,6 @@ export default {
           console.log(this.$store.state.auth.token)
           console.log(this.$store.state.auth.user)
           // if(this.$store.state.auth.isUserLoggedIn){
-           
           // }
         }
         catch(error){
@@ -85,7 +84,6 @@ export default {
       }
     }
   },
- 
 }
 </script>
 <style>

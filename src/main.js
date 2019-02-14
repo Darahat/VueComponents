@@ -13,6 +13,7 @@ import 'echarts-gl'
 Vue.component('v-chart', ECharts)
 
 Vue.use(Vuex)
+Vue.use(router)
 Vue.config.productionTip = false
 Vue.use(Vuetify)
 console.log(process.env.VUE_APP_ROOT_API)
